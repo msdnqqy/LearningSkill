@@ -10,9 +10,9 @@ import random
 import numpy as np
 from matplotlib import cm
 def autolabel(rects):
- for rect in rects:
-  height = rect.get_height()
-  plt.text(rect.get_x()+rect.get_width()/2.-0.2, 1.00*height, '%s' % float(height))
+    for rect in rects:
+        height = rect.get_height()
+        plt.text(rect.get_x()+rect.get_width()/2.-0.2, 1.00*height, '%s' % float(height))
 """
 插入排序,最坏情况n²,平均情况n²
 1.认为index=0处已经排序，

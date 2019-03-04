@@ -10,9 +10,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
 def autolabel(rects):
- for rect in rects:
-  height = rect.get_height()
-  plt.text(rect.get_x()+rect.get_width()/2.-0.2, 1.00*height, '%s' % float(height))
+    for rect in rects:
+        height = rect.get_height()
+        plt.text(rect.get_x()+rect.get_width()/2.-0.2, 1.00*height, '%s' % float(height))
 
 def bubble_sort(arr):
 
