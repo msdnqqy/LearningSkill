@@ -7,6 +7,7 @@ import distance
 import numpy as np
 from load import Load
 
+np.random.seed(10000)
 class Classify:
     def __init__(self,k=10,train_data=None,labels=None,distance_function=distance.L2):
         self.k=k
@@ -40,6 +41,13 @@ class Classify:
         l=np.array(l,dtype=[('x',np.int16),('y',np.int16)])
         return np.sort(l,order='x')[::-1]
 
+    def predit(self,x):
+        topk=self.get_topk(x)
+        c = self.get_class(topk[1])
+        confidence=c[0][0]/self.k
+        clazz=c[0][1]
+        return clazz,confidence
+
 
 if __name__=='__main__':
     load=Load()
@@ -55,14 +63,18 @@ if __name__=='__main__':
         x=test_item
         # print(x.shape)
         y=test_labels[i]
-        topk=classify.get_topk(x)
+        # topk=classify.get_topk(x)
+        #
+        # # print('k:',topk[1])
+        # c=classify.get_class(topk[1])
 
-        # print('k:',topk[1])
-        c=classify.get_class(topk[1])
+        # print(i,'\t获取分类成功：',c[0],y)
 
-        print(i,'\t获取分类成功：',c[0],y)
-        ylabel=np.r_[ylabel,c[0][1]]
+
+        clazz,confidence=classify.predit(x)
+        print('类别：',clazz,'\tconfidence:',confidence,'\t',clazz==y)
         y_label=np.r_[y_label,y]
+        ylabel = np.r_[ylabel, clazz]
 
     print('准确率:',100*(np.sum(ylabel==y_label)/ylabel.shape[0]))
 
