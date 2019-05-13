@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcdfdc37-9036-4bab-8788-10e9000ba0c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sklearn实现决策树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source.gv" beforeDir="false" afterPath="$PROJECT_DIR$/Source.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Source.gv.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sklearn实现决策树.py" beforeDir="false" afterPath="$PROJECT_DIR$/sklearn实现决策树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree_model.dot" beforeDir="false" afterPath="$PROJECT_DIR$/tree_model.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree_model.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/tree_model.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sklearn实现决策树.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
-              <folding>
-                <element signature="e#37#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="259">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -45,10 +46,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-17" />
-    <option name="y" value="-17" />
-    <option name="width" value="1946" />
-    <option name="height" value="1106" />
+    <option name="x" value="-18" />
+    <option name="y" value="-18" />
+    <option name="width" value="1947" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,16 +150,17 @@
       <workItem from="1557647203614" duration="1203000" />
       <workItem from="1557672932698" duration="3593000" />
       <workItem from="1557680448168" duration="752000" />
+      <workItem from="1557758063488" duration="1289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5548000" />
+    <option name="totallyTimeSpent" value="6837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="917" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25353017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20025674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -173,13 +175,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4005102" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4005102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="354" height="717" id="Documentation" order="5" side_tool="true" visible="true" weight="0.21887034" />
+      <window_info active="true" anchor="right" x="0" y="0" width="354" height="717" id="Documentation" order="5" side_tool="true" visible="true" weight="0.21887034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,11 +193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sklearn实现决策树.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
-          <folding>
-            <element signature="e#37#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="23" />
         </state>
       </provider>
     </entry>

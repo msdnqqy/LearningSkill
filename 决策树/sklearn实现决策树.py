@@ -43,7 +43,14 @@ print("各个属性的重要程度",df)
 
 #保存决策树
 with open("tree_model.dot",'w') as f:
-    f=tree.export_graphviz(tree_model,out_file=f)
+    f=tree.export_graphviz(tree_model
+                                # ,feature_names=  ['酒精','苹果酸','灰','灰的碱性','镁','总酚','类黄酮','非黄烷类酚类','花青素','颜色强度','色调','od280/od315稀释葡萄酒','脯氨酸']
+                                # ,class_names=["琴酒","雪莉","贝尔摩德"]
+                                ,feature_names=  wine_dataset.feature_names
+                                ,class_names=wine_dataset.target_names
+                                ,filled=True,rounded=True,
+                                out_file=f)
+
     print('决策树保存成功，tree_model.dot')
 
 
